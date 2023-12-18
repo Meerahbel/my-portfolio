@@ -1,0 +1,35 @@
+/* Style for Swiper Pagination */
+/* .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+  z-index: 100;
+} */
+
+@media (max-width: 700px) {
+  .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -50px;
+    z-index: 999;
+    transform: translateY(-100px);
+  }
+}
+
+/* Style for the pagination bullet (inactive) */
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 2px solid black;
+  background-color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* Style for the active pagination bullet */
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
