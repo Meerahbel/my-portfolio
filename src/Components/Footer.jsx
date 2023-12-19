@@ -19,7 +19,7 @@ const Footer = () => {
             Let's create something{" "}
             <span className="text-purple-800">together?</span>
           </h1>
-          <button className="px-3 py-1 border-2 border-purple-800 w-[40%] md:w-[30%]">
+          <button className="px-3 py-1 border-2 border-purple-800 w-[40%] md:w-[30%] lg:w-[40%] xl:w-[30%]">
             Contact Me
           </button>
         </div>

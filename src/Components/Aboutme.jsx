@@ -7,7 +7,7 @@ const Aboutme = () => {
     AOS.init();
   }, []);
   return (
-    <section className="bg-blue-600 py-20 px-5 md:px-40">
+    <section className="bg-blue-600 py-20 px-5 md:px-40 text-white">
       <h1
         className="text-2xl md:text-3xl font-semibold"
         data-aos="fade-up"
@@ -17,7 +17,7 @@ const Aboutme = () => {
         keen eye for design and a commitment to crafting engaging and responsive
         user interfaces.
       </h1>
-      <button className="border-2 border-black px-3 py-1 mt-10">
+      <button className="border-2 border-white px-3 py-1 mt-10">
         More About Me
       </button>
     </section>
