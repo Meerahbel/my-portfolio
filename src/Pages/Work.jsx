@@ -1,5 +1,11 @@
+import Workheader from "../Components/Workheader";
+
 const Work = () => {
-  return <section></section>;
+  return (
+    <main>
+      <Workheader />
+    </main>
+  );
 };
 
 export default Work;
