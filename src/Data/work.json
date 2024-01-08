@@ -6,5 +6,13 @@
   {
     "image": "/images/timenow.png",
     "title": "TimeNow Website."
+  },
+  {
+    "image": "/images/getlinked.png",
+    "title": "getLinked Tech Hackathon."
+  },
+  {
+    "image": "/images/social.png",
+    "title": "Social Proof Section."
   }
 ]
