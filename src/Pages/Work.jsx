@@ -6,9 +6,11 @@ const Work = () => {
   return (
     <main>
       <Workheader />
-      {work?.map((item, index) => {
-        return <Workcard key={index} item={item} index={index} />;
-      })}
+      <div className="grid grid-cols-1 gap-10">
+        {work?.map((item, index) => {
+          return <Workcard key={index} item={item} index={index} />;
+        })}
+      </div>
     </main>
   );
 };
