@@ -1,0 +1,18 @@
+.bw-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Colored image on hover */
+.colored-image {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.image {
+  transition: transform 0.2s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1); /* Adjust the scale value for desired bounce effect */
+}
